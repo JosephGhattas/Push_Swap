@@ -2,7 +2,7 @@
 
 A C program that sorts integers using two stacks and a limited set of operations, optimized for minimal moves.
 
-#📖 Overview
+# 📖 Overview
 
 Push_swap is an algorithmic challenge from the 42 curriculum, where the objective is to sort a stack of integers using only two stacks (a and b) and a limited set of operations (push, swap, rotate, reverse).
 
@@ -70,7 +70,7 @@ You can verify the correctness with the included checker:
 
 ARG="4 67 3 87 23"
 ./push_swap $ARG | ./checker_linux $ARG
-# Output: OK
+### Output: OK
 
 # 🧠 Key Learnings
 
@@ -86,7 +86,7 @@ Improved debugging skills with custom test cases and automated checkers
 
 Learned how small tweaks (like median-based decisions) can greatly reduce operation counts
 
-#📂 Project Structure
+# 📂 Project Structure
 
 srcs/ → Core sorting logic (init_a_to_b.c, init_b_to_a.c, sort.c, etc.)
 
